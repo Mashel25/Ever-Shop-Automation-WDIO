@@ -8,13 +8,6 @@
     "getReport":"allure generate --clean allure-results && allure open allure-report",
     "product":" wdio run wdio.conf.js --suite productToCart",
     "search":" wdio run wdio.conf.js --search"
-    
-  },
-    "allSuites": "wdio run wdio.conf.js --suite allSuites",
-    "login": "wdio run wdio.conf.js --suite login",
-     "purches": "wdio run wdio.conf.js --suite purches",
-     "ZToA": "wdio run wdio.conf.js --suite ZToA",
-     "test:all": "npm run login && npm run purches && npm run ZToA"
      
        },
   "keywords": [],
